@@ -1,0 +1,41 @@
+$bcolor_mbanner: #25edc1;
+$tcolor_mbanner:#3d2a3d;
+$bcolor_mnavbar: #b3f2e4;
+
+.row[id="main-banner"]{
+  background-color:$bcolor_mbanner;
+  margin: 0 0 0 0;
+  height:auto;
+}
+
+.row[id="main-banner"] h1{
+  margin:0 0 0 10px;
+  padding: 20px 20px 20px 0px;
+}
+.row[id="main-banner"] h6{
+  margin:0 10px 0 0px;
+  padding: 50px 0px 0px 0px;
+  text-align: right;
+}
+
+@media(max-width: 991.98px){
+  .row[id="main-banner"] h6{
+    text-align: left;
+    margin: 0 0 0 10px;
+    padding: 0 0 20px 15px;
+  }
+
+  .row[id="main-banner"] h1{
+    margin:0 0 0 10px;
+    padding: 5px 0px 0px 10px;
+  }
+}
+
+.navbar-light[id="main-navbar"]{
+  background-color: $bcolor_mnavbar;
+}
+
+.scroll-div300{
+  height:300px;
+  overflow-y: scroll;
+}

@@ -1,0 +1,17 @@
+.meeting_introduction, .notes, .conclusion{
+    background-color: lightgray;
+    font-family: sans-serif,serif,arial;
+}
+
+.footlink{
+  float: right;
+  width: 100px;
+  font-size: 10px;
+  text-align: right;
+  color: gray;
+}
+
+.meeting_introduction#m1_intro, .notes#m1_notes, .conclusion#m1_conclusion{
+    font-size: 14px;
+    background-color: white;
+}
